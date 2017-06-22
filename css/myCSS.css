@@ -1,0 +1,44 @@
+.ui-panel-inner
+{
+	padding: 0px;
+}
+
+.alignCenter
+{
+	text-align: center;
+}
+
+.paddingLeft
+{
+	padding-left: 5px;
+}
+
+h1
+{
+	color: #fff;
+	text-shadow: 1px 1px 5px #82caff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#resultsTable
+{
+	background-color: #EFEFEF;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.headshots
+{
+	width: 100%;
+}
+
+.blackBG
+{
+	background-color: #000;
+}
+
+.blackText
+{
+	color: #000;
+}
