@@ -1,0 +1,166 @@
+[
+	{
+    "name": "Chris Rodrigues",
+    "position": "Midfielder",
+    "nationality": "French",
+	"dob": "06/02/1996",
+	"debut": "Vs. Cabinteely FC 31/03/17",	
+	"appearances": "8",
+	"goals": "3",
+	"headshot": "images/chris-rodrigues.jpg"
+	},
+	
+	{
+    "name": "Colm Coss",
+    "position": "Midfielder",
+    "nationality": "Irish",
+	"dob": "24/10/1988",
+	"debut": "Vs. Shelbourne FC 08/07/16",
+	"appearances": "14",
+	"goals": "2",
+	"headshot": "images/colm-coss.jpg"
+	}, 
+ 
+	{
+    "name": "Conor Barry",
+    "position": "Striker",
+    "nationality": "Irish",
+	"dob": "02/09/1995",
+	"debut": "Vs. Drogheda United 18/03/16",
+	"appearances": "11",
+	"goals": "1",
+	"headshot": "images/conor-barry.jpg"
+	}, 
+	
+	{
+    "name": "Cormac Raftery",
+    "position": "Defender",
+    "nationality": "Irish",
+	"dob": "27/04/1995",
+	"debut": "Vs. Waterford FC 05/08/16",
+	"appearances": "12",
+	"goals": "0",
+	"headshot": "images/cormac-raftery.jpg"
+	}, 
+	
+	{
+    "name": "David Brookes",
+    "position": "Defender",
+    "nationality": "Irish",
+	"dob": "20/07/1994",
+	"debut": "Vs. Drogheda United 26/03/12",
+	"appearances": "14",
+	"goals": "0",
+	"headshot": "images/david-brookes.jpg"
+	}, 
+	
+	{
+    "name": "Dragos Sfrijan",
+    "position": "Midfielder",
+    "nationality": "Romanian",
+	"dob": "17/04/1990",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "11",
+	"goals": "1",
+	"headshot": "images/dragos-sfrijan.jpg"
+	}, 
+	
+	{
+    "name": "Ethan Keogh",
+    "position": "Midfielder",
+    "nationality": "Irish",
+	"dob": "10/01/1995",
+	"debut": "Vs. Waterford FC 22/06/12",
+	"appearances": "10",
+	"goals": "1",
+	"headshot": "images/ethan-keogh.jpg"
+	},
+	
+	{
+    "name": "Frederico Hernandez",
+    "position": "Defender",
+    "nationality": "Portuguese",
+	"dob": "08/08/1993",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "11",
+	"goals": "0",
+	"headshot": "images/frederico-hernandez.jpg"
+	},
+	
+	{
+    "name": "Igors Labuts",
+    "position": "Goalkeeper",
+    "nationality": "Latvian",
+	"dob": "07/06/1990",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "14",
+	"goals": "0",	
+	"headshot": "images/igors-labuts.jpg"
+	},
+	
+	{
+    "name": "Jason Lyons",
+    "position": "Striker",
+    "nationality": "Irish",
+	"dob": "06/01/1995",
+	"debut": "Vs. Shamrock Rovers 19/08/16",
+	"appearances": "15",
+	"goals": "3",
+	"headshot": "images/jason-lyons.jpg"
+	},
+	
+	{
+    "name": "Jason Molloy",
+    "position": "Midfielder",
+    "nationality": "Irish",
+	"dob": "22/09/1988",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "9",
+	"goals": "0",
+	"headshot": "images/jason-molloy.jpg"
+	},
+	
+	{
+    "name": "Jose Viegas",
+    "position": "Midfielder",
+    "nationality": "Portuguese",
+	"dob": "10/04/1992",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "13",
+	"goals": "1",
+	"headshot": "images/jose-viegas.jpg"
+	}, 
+	
+	{
+    "name": "Kirils Grigorovs",
+    "position": "Defender",
+    "nationality": "Latvian",
+	"dob": "19/10/1992",
+	"debut": "Vs. Waterford FC 25/02/17",
+	"appearances": "13",
+	"goals": "0",
+	"headshot": "images/kirils-grigorovs.jpg"
+	},
+	
+	{
+    "name": "Niall Scullion",
+    "position": "Defender",
+    "nationality": "Irish",
+	"dob": "17/04/1987",
+	"debut": "Vs. Limerick 37 12/04/08",
+	"appearances": "12",
+	"goals": "0",
+	"headshot": "images/niall-scullion.jpg"
+	}, 
+		
+	{
+    "name": "Walter Invernizzi",
+    "position": "Striker",
+    "nationality": "Uruguayan",
+	"dob": "02/04/1981",
+	"debut": "Vs. Cobh Ramblers 18/03/17",
+	"appearances": "10",
+	"goals": "4",
+	"headshot": "images/walter-invernizzi.jpg"
+	}
+]

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Search Athlone Town Players</title>
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/themes/mwa1.css" />
+  	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/myCSS.css" />
+  
+    <!-- MWA Assessment 1 -->
+    <!-- Ray Egan -->
+    <!-- 16/06/17 -->
+</head>
+
+<body>
+	<!-- start list page -->
+	<div data-role="page" id="list" class="ui-responsive-panel"> 
+		
+		<!-- start panel code -->
+		<div class="panel left" data-role="panel" data-display="reveal" id="myLeftPanel">
+			<!-- start panel header -->
+			<div data-role="header">
+				<p class="alignCenter">Instructions</p>
+				<!-- button to explicitly close the panel -->
+				<a href="#" id="panelClose" data-icon="delete" data-iconpos="notext" data-rel="close">Close</a>
+			</div><!-- end panel header -->
+			
+			<!-- start panel content -->
+			<div class="content">
+				<p class="paddingLeft">This app allows you to see details of the Athlone Town squad</p>
+				<p class="paddingLeft">Just use the search bar to search for any of the below players</p>
+				
+				<ul data-role="listview" id="listPlayers">
+					<!-- dynamically created list of unclickable player names goes here -->
+					<!-- comes from 'simpleListHTML' in js/myJS.js -->
+				</ul>
+			</div><!-- end panel content -->
+		</div><!-- end panel code -->
+		
+	 	<!-- start main header -->
+        <div data-role="header" class="ui-bar-a">
+        	<p class="alignCenter">Athlone Town Squad Details</p>
+			<!-- info icon -->
+			<!-- panel appears from the left if the user clicks on this icon -->
+			<a href="#" id="panelIcon" data-icon="info" data-iconpos="notext">Info</a>	
+        </div><!-- end main header -->
+        
+        <!-- start main content -->
+        <div data-role="content">
+            <div class="content-primary">
+            	<div data-demo-html="true">
+					<form class="ui-filterable" method="post">
+						<input id="myFilter" data-type="search" placeholder="Search Athlone Town Players">
+					</form>
+					
+					<!-- the 'data-filter-reveal="true"' attribute hides the list items, until we start searching for them -->
+					<!-- if this attribute was omitted, all the list items would be permanently displayed beneath the searchbar -->
+                    <ul data-role="listview" data-autodividers="true" data-filter="true" data-filter-reveal="true" id="clickPlayers" data-input="#myFilter">
+                    	<!-- dynamically created list of clickable player names goes here -->
+						<!-- comes from 'richListHTML' in js/myJS.js -->
+                    </ul>
+                </div>
+            </div>
+        </div><!-- end main content -->
+        
+        <!-- start main footer -->
+        <div data-role="footer">
+            <p class="alignCenter">MWA Assessment 1</p>
+        </div><!-- end main footer -->
+		
+		<!-- start popup pages -->
+		<div id="popups" class="ui-responsive">
+			<!-- dynamically created popup pages go here -->
+			<!-- comes from 'popupHTML' in js/myJS.js -->
+		</div><!-- end popup pages -->
+				
+	</div><!-- end list page -->
+	
+	<!-- best practice in loading jqm just inside the closing body tag -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/myJS.js"></script>
+	<script src="phonegap.js"></script>
+</body>
+</html>
