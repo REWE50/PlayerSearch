@@ -6,10 +6,10 @@
         id        = "com.example.todo"
         version   = "1.0.0">
 
-    <name>To-Do List App</name>
+    <name>Player Search</name>
 
     <description>
-        Keep track of your daily tasks with this simple To-Do List App
+        Search details of Athlone Town Players
     </description>
 
     <author href="http://example.ie" email="email@example.ie">
